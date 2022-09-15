@@ -1,0 +1,163 @@
+body {
+    color: #40514E;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin-top: 50px auto 0 auto;
+    color: #66BFBF;
+    line-height: 1;
+}
+
+h2 {
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+p { 
+    line-height: 2;
+}
+
+hr {
+    background-color: #E4F9F5 6px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%; 
+    margin: 100px auto;
+}
+
+/*
+.top-container {
+    background-color: #E4F9F5;
+    height: 200px;
+    width: 200px;
+}
+
+.middle-container {
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    margin-left: 200px;
+}
+
+.bottom-container {
+    background-color: grey;
+    height: 200px;
+    width: 200px;
+    margin-left: 400px;
+}
+*/
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 30px;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.copyright {
+    color: #E4F9F5;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px; 
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.leadership {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.recycling {
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+.relation {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.gardening {
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+.vision {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E4F9F5;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    border-radius: 8px;
+    font-family: Georgia;
+    color: #d6e6e3;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
